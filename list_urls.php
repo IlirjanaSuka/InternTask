@@ -1,5 +1,5 @@
 <?php
-$pdo = new PDO('mysql:host=localhost;dbname=Task', 'root', 'Lana.1234');
+$pdo = new PDO('mysql:host=localhost;dbname=Task', 'root', '');
 $pdo->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
 $query = $pdo->query("SELECT * FROM urls WHERE expires_at IS NULL OR expires_at > NOW() ORDER BY created_at DESC");
 $urls = $query->fetchAll(PDO::FETCH_ASSOC);
