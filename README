@@ -24,7 +24,7 @@
 - Click "Path" and "New"
 - Paste the path of the folder and then "OK"
 - Install extentions: PHP Intelephense, PHP Server and PHP Debug
-- Close the VSC and then open it again, double click with the right coursor and "PHP Server: Reload server"
+- Close the VSC and then open it again, double click with the right coursor and "PHP Server: Reload server" on the index.php file.
 
 
 
