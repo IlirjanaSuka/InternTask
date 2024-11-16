@@ -1,0 +1,179 @@
+
+.container {
+    display: flex;
+    height: 100vh;
+    font-family: Arial, sans-serif;
+}
+
+
+.sidebar {
+    width: 300px;
+    background-color: #eeeeee;
+    padding: 20px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center; 
+}
+
+.sidebar h2 {
+    margin-top: 15%;
+  
+}
+
+img {
+    max-width: 100%; 
+    height: auto;
+    display: block;
+    margin-top: 10%;
+}
+
+#shortened-urls{
+
+  font-size: 18px;
+ 
+}
+.sidebar a {
+    color: rgb(105, 105, 247);
+    text-align: left;
+    margin-bottom: 10px;
+    text-decoration: none;
+}
+
+.url-item {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-bottom: 10px;
+}
+
+.delete {
+    text-decoration: none;
+    cursor: pointer;
+    transition: color 0.3s ease, transform 0.3s ease;
+    padding: 5px;
+    margin-left: 10px; /* Hapësirë midis linkut dhe butonit */
+}
+
+.delete:hover {
+    color: #c0392b; 
+    transform: scale(1.1);
+    background-color: rgba(231, 76, 60, 0.1);
+}
+
+
+
+
+.main-content {
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+    justify-content: flex-start; 
+    width: 100%;
+    max-width: 800px; 
+    margin: 0 auto;
+}
+
+
+.main-content h1 {
+    text-align: left;
+    align-self: flex-start; 
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+
+.form-inline {
+    display: flex;
+    flex-direction: column;
+    align-items: top;
+    text-align: left;
+    align-self: flex-start; 
+    gap: 15px;
+}
+
+
+
+.input-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.input {
+    padding: 12px;
+    border: 1px solid #ccc;
+    width: 450px;
+}
+
+
+.expiration-container {
+    position: relative;
+}
+
+.custom-dropdown {
+    position: relative;
+}
+
+.dropdown-button {
+    padding: 12px;
+    border: 1px solid rgb(146, 145, 145);
+    background-color: white;
+    color: gray;
+    cursor: pointer;
+    width: 250px;
+    text-align: center;
+}
+
+.dropdown-options {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    color: gray;
+    text-align: center;
+    border: 1px solid gray;
+    margin-top: 5px;
+    display: none;
+    z-index: 10;
+}
+
+.custom-dropdown.open .dropdown-options {
+    display: block;
+}
+
+.option {
+    padding: 10px;
+    color: gray;
+    border-bottom: 1px solid gray;
+    cursor: pointer;
+}
+
+.option:last-child {
+    border-bottom: none;
+}
+
+.option:hover {
+    background-color: #f0f0f0;
+}
+
+
+button[type="submit"] {
+    background-color: #7b1fa2;
+    color: #fff;
+    border: none;
+    padding: 10px 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 200px; 
+    margin-top: 15px;
+}
+
+button[type="submit"]:hover {
+    background-color: #5e0f81;
+}
+
+

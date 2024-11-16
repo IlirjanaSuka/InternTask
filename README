@@ -1,0 +1,32 @@
+Task for intern
+
+#Technologies:
+1. HTML
+2. CSS
+3. PHP
+4. JavaScript
+5. SQL(MySLQ)
+
+#Requirements and the goals:
+*All of them
+
+======================================================================================================================
+
+#To run the task you should have downloaded and installed PHP and XAMPP. If not with XAMPP, you can run it with VSC extentions "PHP Intelephense" and "PHP Server", also "PHP Debug".
+
+#Steps:
+1. Download PHP from its website https://windows.php.net/download#php-8.3
+2. Download the zip file
+3. Extract it and drag it to the Program Files
+4. Copy the path of the foler location
+5. Past it in the "Edit the stystem environments variables
+6. Click the "Environment Variables"
+7. Click "Path" and "New"
+8. Paste the path of the folder and then "OK"
+9. Install extentions: PHP Intelephense, PHP Server and PHP Debug
+10. Close the VSC and then open it again, double click with the right coursor and "PHP Server: Reload server"
+
+
+
+
+
